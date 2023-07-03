@@ -198,13 +198,13 @@ nav {
 .social-icons {
   display: none;
 }
-.links {
-  /* height: 0;
-  overflow: hidden;
-  transition: var(--transition); */
+.links{
+  transition: var(--transition); 
 }
-.show-links {
-  height: 10rem;
+
+.toggle-content{
+  display:none;
+  transition: var(--transition); 
 }
 @media screen and (min-width: 800px) {
   .nav-center {
